@@ -2273,7 +2273,14 @@ Log in Page Styles
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  flex-direction: column;
+}
+
+.login-wrapper .page-title {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 15px;
 }
 
 #first {
