@@ -2377,13 +2377,11 @@ form .error {
 
 
 
-
-
-
-
-
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
+  .login-wrapper {
+  flex-direction: column;
+}
 
   #first {
     width: 100%;
